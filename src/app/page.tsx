@@ -2,7 +2,7 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Camera, Leaf, Book, History, Settings, Home } from "lucide-react"
+import { Camera, Leaf, Book, History} from "lucide-react"
 
 export default function HomeScreen() {
   return (
@@ -26,7 +26,7 @@ export default function HomeScreen() {
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Camera className="w-12 h-12 text-green-600 mb-4" />
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Scan Plant</h3>
-                <p className="text-gray-600 mb-4">Analyze your plant's health instantly</p>
+                <p className="text-gray-600 mb-4">Analyze your plant&apos;s health instantly</p>
                 <Button className="bg-green-600 hover:bg-green-700 text-white">
                   Start Scan
                 </Button>

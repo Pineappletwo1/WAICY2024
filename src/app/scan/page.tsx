@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Camera, Home, Leaf, Settings, Menu } from "lucide-react"
+import { Camera, Leaf} from "lucide-react"
 
 export default function LeafLensApp() {
   const [predictions, setPredictions] = useState<string[]>([])

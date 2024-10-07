@@ -1,10 +1,9 @@
 "use client"
 import React, { useState } from 'react'
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Camera, Leaf, Settings, Home, Search, Flower2, Salad, Sprout, TreeDeciduous } from "lucide-react"
+import { Leaf, Search, Flower2, Salad, Sprout, TreeDeciduous } from "lucide-react"
 
 const plants = [
   { name: "Tomato", scientificName: "Solanum lycopersicum", category: "Vegetables" },
@@ -17,7 +16,7 @@ const plants = [
   { name: "Spider Plant", scientificName: "Chlorophytum comosum", category: "Indoor Plants" },
 ]
 
-const getCategoryIcon = (category) => {
+const getCategoryIcon = (category: string) => {
   switch (category) {
     case "Vegetables":
       return <Salad className="w-8 h-8 text-green-600" />
